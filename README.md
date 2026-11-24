@@ -34,9 +34,9 @@ Maven Toys sales and inventory data (Maven Analytics free data playground, publi
 | Stock | $300K tied up at cost; 293 store-product lines under 1 week of cover; 77 out of stock |
 | Lost sales | Stock-outs of selling items cost about $957 revenue per day (about $29K per month) |
 
-![Monthly revenue](images/monthly_revenue.png)
-![Category share](images/category_share.png)
-![Stock status](images/stock_status.png)
+![Monthly revenue](monthly_revenue.png)
+![Category share](category_share.png)
+![Stock status](stock_status.png)
 
 ## Recommendations
 1. Restock out-of-stock items first, starting with Dino Egg, Playfoam and Mini Ping Pong Set.
@@ -52,8 +52,8 @@ Maven Toys sales and inventory data (Maven Analytics free data playground, publi
 ## Files
 - `sales_inventory_analysis.ipynb`: full analysis with outputs
 - `queries.sql`: all SQL queries
-- `data/`: the 4 tables (`sales.csv.gz` is compressed; pandas reads it directly)
-- `images/`: charts
+- the 4 data tables as CSV files (`sales.csv.gz` is compressed; pandas reads it directly)
+- the chart images (.png)
 
 ## How to run
 ```
